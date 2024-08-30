@@ -1,0 +1,514 @@
+{
+    "North-Indian": [
+        {
+            "id": 0,
+            "name": "North Indian Thali",
+            "description": "A traditional North Indian meal with a variety of dishes including dal, sabzi, roti, and rice.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 35,
+            "image": "/menuImages/North_Indian_4.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "South Indian Thali",
+            "description": "A traditional South Indian meal featuring sambar, rasam, vegetable curry, and dosas.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 30,
+            "image": "/apiImages/thalithird.avif"
+        },
+        {
+            "id": 2,
+            "name": "Gujarati Thali",
+            "description": "A sweet and savory Gujarati meal with dishes like undhiyu, kadhi, and puris.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 32,
+            "image": "/apiImages/thalione.avif"
+        },
+        {
+            "id": 3,
+            "name": "Rajasthani Thali",
+            "description": "A hearty Rajasthani meal with spicy curries, dal-baati-churma, and more.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 38,
+            "image": "/apiImages/thalione.avif"
+        }
+    ],
+    "South-Indian": [
+        {
+            "id": 0,
+            "name": "Vegetable Sandwich",
+            "description": "A classic Indian sandwich filled with fresh vegetables, chutney, and spices.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 50,
+            "image": "/menuImages/Dosa.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Paneer Tikka Sandwich",
+            "description": "Grilled paneer tikka chunks with a blend of Indian spices and sauces.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 70,
+            "image": "/apiImages/sandwichC2.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Chicken Kebab Sandwich",
+            "description": "Tender chicken kebabs with a spicy and tangy chutney.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 80,
+            "image": "/apiImages/sandwichC2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Egg Mayo Sandwich",
+            "description": "Creamy egg mayonnaise mixed with Indian spices and herbs.",
+            "spicy": false,
+            "vegetarian": false,
+            "price": 60,
+            "image": "/apiImages/sandwichC2.jpeg"
+        }
+    ],
+    "pizza": [
+        {
+            "id": 0,
+            "name": "Tandoori Veg Pizza",
+            "description": "Pizza topped with tandoori vegetables, including bell peppers, onions, and mushrooms.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 350,
+            "image": "/menuImages/Pizza.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Butter Chicken Pizza",
+            "description": "Pizza with a rich butter chicken topping and mozzarella cheese.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 400,
+            "image": "/apiImages/pizzaC1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Paneer Tikka Pizza",
+            "description": "Pizza topped with spicy paneer tikka and fresh vegetables.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 375,
+            "image": "/apiImages/pizzaC1.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Keema Pizza",
+            "description": "Pizza with minced lamb keema, onions, and bell peppers.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 425,
+            "image": "/apiImages/pizzaC1.jpeg"
+        }
+    ],
+    "pasta": [
+        {
+            "id": 0,
+            "name": "Bolognese",
+            "description": "",
+            "spicy": false,
+            "vegetarian": false,
+            "price": 28,
+            "image": "/menuImages/Pasta.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Carbonara",
+            "description": "",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 28,
+            "image": "/apiImages/pastaone.jpg"
+        }
+    ],
+    "desserts": [
+        {
+            "id": 0,
+            "name": "Gulab Jamun",
+            "description": "Deep-fried dough balls soaked in rose-flavored syrup.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 15,
+            "image": "/menuImages/Gulab_Jamun.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Rasgulla",
+            "description": "Soft and spongy cheese balls soaked in sugary syrup.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 12,
+            "image": "/apiImages/gulabjamunC2.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Kaju Katli",
+            "description": "Thin, diamond-shaped slices of cashew nut fudge.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 25,
+            "image": "/apiImages/gulabjamunC2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Jalebi",
+            "description": "Crispy, spiral-shaped sweet made from fermented dough and soaked in syrup.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 18,
+            "image": "/apiImages/gulabjamunC2.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Rasmalai",
+            "description": "Creamy dessert with sweetened, spongy cheese patties in flavored milk.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 20,
+            "image": "/apiImages/gulabjamunC2.jpeg"
+        }
+    ],
+    "biryani": [
+        {
+            "id": 0,
+            "name": "Hyderabadi Biryani",
+            "description": "A traditional biryani with rich spices and tender meat.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 35,
+            "image": "/menuImages/Biryani.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Vegetable Biryani",
+            "description": "A flavorful biryani made with mixed vegetables and aromatic spices.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 25,
+            "image": "/apiImages/biryanione.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Chicken Biryani",
+            "description": "Classic chicken biryani with fragrant basmati rice and spices.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 30,
+            "image": "/apiImages/biryanione.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Mutton Biryani",
+            "description": "Rich and flavorful mutton biryani cooked with aromatic spices.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 40,
+            "image": "/apiImages/biryanione.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Paneer Biryani",
+            "description": "Biryani made with paneer, mixed with spices and herbs.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 28,
+            "image": "/apiImages/biryanione.jpg"
+        }
+    ],
+    "curries": [
+        {
+            "id": 0,
+            "name": "Butter Chicken",
+            "description": "A rich and creamy curry made with tender chicken pieces simmered in a spiced tomato and butter sauce.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 15,
+            "image": "/menuImages/Pure_Veg.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Palak Paneer",
+            "description": "A vegetarian dish made with paneer (Indian cottage cheese) and cooked in a spiced spinach gravy.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 12,
+            "image": "/apiImages/curryC1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Chana Masala",
+            "description": "A hearty and flavorful curry made with chickpeas simmered in a spiced tomato sauce.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 10,
+            "image": "/apiImages/curryC1.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Rogan Josh",
+            "description": "A flavorful and aromatic lamb curry cooked with a blend of spices and yogurt.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 18,
+            "image": "/apiImages/curryC1.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Dal Makhani",
+            "description": "A creamy and savory curry made with black lentils and kidney beans, cooked with butter and cream.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 14,
+            "image": "/apiImages/curryC1.jpeg"
+        }
+    ],
+    "salad": [
+        {
+            "id": 0,
+            "name": "Kachumber Salad",
+            "description": "A refreshing mix of cucumbers, tomatoes, onions, and lemon juice, seasoned with cumin and coriander.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 20,
+            "image": "/menuImages/Salad.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Chickpea Salad",
+            "description": "A hearty salad with chickpeas, red onions, bell peppers, and a tangy lemon dressing, garnished with fresh cilantro.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 25,
+            "image": "/apiImages/saladsecond.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Fruit Chaat",
+            "description": "A sweet and tangy fruit salad with apples, bananas, pomegranates, and a hint of chaat masala.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 22,
+            "image": "/apiImages/saladsecond.jpg"
+        }
+    ],
+    "paratha": [
+        {
+            "id": 0,
+            "name": "Aloo Paratha",
+            "description": "Stuffed with a spiced potato filling, served with yogurt and pickles.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 50,
+            "image": "/menuImages/Paratha.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Paneer Paratha",
+            "description": "Stuffed with a spiced paneer (cottage cheese) filling, served with butter and chutney.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 60,
+            "image": "/apiImages/paratha.avif"
+        },
+        {
+            "id": 2,
+            "name": "Methi Paratha",
+            "description": "Made with fenugreek leaves and spices, offers a unique and flavorful taste.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 55,
+            "image": "/apiImages/paratha.avif"
+        },
+        {
+            "id": 3,
+            "name": "Keema Paratha",
+            "description": "Stuffed with spiced minced meat (keema), perfect for meat lovers.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 70,
+            "image": "/apiImages/paratha.avif"
+        }
+    ],
+    "iceCream": [
+        {
+            "id": 0,
+            "name": "Kulfi",
+            "description": "Traditional Indian frozen dessert made with milk, cardamom, and saffron.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 60,
+            "image": "/menuImages/Ice_Creams.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Rasmalai Ice-Cream",
+            "description": "Creamy ice-cream infused with flavors of rasmalai, a popular Indian sweet.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 70,
+            "image": "/apiImages/icecream2.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Mango Ice-Cream",
+            "description": "Rich and creamy ice-cream made with fresh mango pulp, perfect for summer.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 65,
+            "image": "/apiImages/icecreamC1.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Gulab Jamun Ice-Cream",
+            "description": "Delicious ice-cream with flavors of gulab jamun, a popular Indian sweet.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 75,
+            "image": "/apiImages/icecreamC1.jpeg"
+        }
+    ],
+    "chinese": [
+        {
+            "id": 0,
+            "name": "Chili Chicken",
+            "description": "Spicy chicken stir-fried with bell peppers, onions, and a tangy sauce.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 150,
+            "image": "/menuImages/Noodles.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Vegetable Manchurian",
+            "description": "Deep-fried vegetable balls in a flavorful Manchurian sauce.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 130,
+            "image": "/apiImages/chineseC2.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Hakka Noodles",
+            "description": "Stir-fried noodles with vegetables and a hint of soy sauce.",
+            "spicy": false,
+            "vegetarian": true,
+            "price": 120,
+            "image": "/apiImages/chineseC2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Chicken Fried Rice",
+            "description": "Flavorful fried rice with chicken and mixed vegetables.",
+            "spicy": false,
+            "vegetarian": false,
+            "price": 140,
+            "image": "/apiImages/chineseC2.jpeg"
+        }
+    ],
+    "burgers": [
+        {
+            "id": 0,
+            "name": "Paneer Tikka Burger",
+            "description": "Juicy paneer tikka patty with fresh vegetables and a tangy sauce.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 120,
+            "image": "/menuImages/Burger.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Aloo Tikki Burger",
+            "description": "Crispy aloo tikki patty with chutneys, lettuce, and onions.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 100,
+            "image": "/apiImages/burgerC3.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Keema Burger",
+            "description": "Spicy minced meat patty with onions, tomatoes, and a flavorful sauce.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 150,
+            "image": "/apiImages/burgerC3.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Chicken Malai Burger",
+            "description": "Tender chicken malai patty with a creamy sauce and fresh veggies.",
+            "spicy": false,
+            "vegetarian": false,
+            "price": 140,
+            "image": "/apiImages/burgerC3.jpeg"
+        }
+    ],
+    "FastFood": [
+        {
+            "id": 0,
+            "name": "Paneer Tikka",
+            "description": "Grilled chunks of marinated paneer served with mint chutney.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 150,
+            "image": "/menuImages/Chole_Bature.jpeg"
+        },
+        {
+            "id": 1,
+            "name": "Chole Bhature",
+            "description": "Spicy chickpea curry served with deep-fried bread.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 120,
+            "image": "/apiImages/samosaC2.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Aloo Tikki",
+            "description": "Spicy potato patties served with chutneys.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 80,
+            "image": "/apiImages/samosaC2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Chicken Kebab",
+            "description": "Marinated chicken pieces grilled to perfection.",
+            "spicy": true,
+            "vegetarian": false,
+            "price": 200,
+            "image": "/apiImages/samosaC2.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Pav Bhaji",
+            "description": "Spicy mixed vegetable curry served with buttered bread rolls.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 100,
+            "image": "/apiImages/samosaC2.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Samosa",
+            "description": "Crispy pastry filled with spiced potatoes and peas.",
+            "spicy": true,
+            "vegetarian": true,
+            "price": 50,
+            "image": "/apiImages/samosaC2.jpeg"
+        }
+    ]
+}
